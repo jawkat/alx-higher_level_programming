@@ -1,0 +1,4 @@
+#!/bin/bash
+echo "compiling $PYFILE ..."
+#python3 -m compileall -b "$PYFILE"
+python3 -m py_compile "$PYFILE"
