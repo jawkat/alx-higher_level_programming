@@ -7,7 +7,6 @@ def safe_print_list(my_list=[], x=0):
             cout+= 1
     except IndexError:
         None
-    finally:
-        print()
+    print()
     return cout
     
