@@ -6,7 +6,7 @@ class Square:
     """The class to create square."""
 
     def __init__(self, size):
-        """Initialzes size to piV
+        """Constructor.
 
         Args:
             size (int): the size of the square
