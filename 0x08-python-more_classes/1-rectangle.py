@@ -8,7 +8,13 @@ This module provides a simple Rectangle class.
 
 class rectangle:
 
-    """ A Rectangle with attributes width and height """
+    """ A Rectangle with attributes width and height
+
+     Args:
+            width (int): The width of the new rectangle.
+            height (int): The height of the new rectangle.
+    """
+
     def __init__(self, width=0, height=0):
         self.width = width
         self.height = height
