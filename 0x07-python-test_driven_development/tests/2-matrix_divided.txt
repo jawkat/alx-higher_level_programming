@@ -14,3 +14,10 @@ Test normal Matrix:
     Traceback (most recent call last):
     ...
     ZeroDivisionError: division by zero
+
+
+    >>> matrix = [[1, 2, 3], [4, 5,"al"]]
+    >>> matrix_div(matrix,2)
+    Traceback (most recent call last):
+    ...
+    TypeError: matrix must be a list of lists of integers or floats
