@@ -3,10 +3,6 @@ Import module:
 
 Test normal Matrix:
 
-    >>> matrix = [
-    ...     [1, 2, 3],
-    ...     [4, 5, 6]
-    ... ]
     >>> matrix_div([[1, 2, 3],[4, 5, 6]],2)
     [[0.5, 1.0, 1.5], [2.0, 2.5, 3.0]]
 
@@ -28,3 +24,9 @@ Test normal Matrix:
     Traceback (most recent call last):
     ...
     TypeError: Each row of the matrix must be of the same size
+
+
+    matrix_div(matrix,"a")
+    Traceback (most recent call last):
+    ...
+    TypeError: div must be a number
