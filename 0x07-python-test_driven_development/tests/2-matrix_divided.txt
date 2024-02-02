@@ -21,3 +21,10 @@ Test normal Matrix:
     Traceback (most recent call last):
     ...
     TypeError: matrix must be a list of lists of integers or floats
+
+
+    >>> matrix = [[1, 2, 3], [4, 5]]
+    >>> matrix_div(matrix,2)
+    Traceback (most recent call last):
+    ...
+    TypeError: Each row of the matrix must be of the same size
