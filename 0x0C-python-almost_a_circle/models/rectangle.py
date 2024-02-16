@@ -50,3 +50,4 @@ class Rectangle(Base):
             value (_type_): _description_
         """
         self.__height = value
+
