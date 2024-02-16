@@ -9,7 +9,8 @@ class Base:
     __nb_objects = 0
 
     def __init__(self, id=None):
-        """ Constructor 
+
+        """Constructor
 
         Args:
             id (_type_, optional): _description_. Defaults to None.
