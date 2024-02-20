@@ -4,8 +4,6 @@
     """
 
 
-
-
 def simple_delete(a_dictionary, key=""):
     """
     simple_delete _summary_
