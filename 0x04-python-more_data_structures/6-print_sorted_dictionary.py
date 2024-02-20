@@ -11,5 +11,5 @@ def print_sorted_dictionary(a_dictionary):
     Args:
         a_dictionary (_type_): _description_
     """
-    for key,value in sorted(a_dictionary.items()):
-        print (f"{key}: {value}")
+    for key, value in sorted(a_dictionary.items()):
+        print(f"{key}: {value}")
