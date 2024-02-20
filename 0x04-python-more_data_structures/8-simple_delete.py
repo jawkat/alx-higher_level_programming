@@ -4,7 +4,6 @@
     """
 
 
-from re import A
 
 
 def simple_delete(a_dictionary, key=""):
