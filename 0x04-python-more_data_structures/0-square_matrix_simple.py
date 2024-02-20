@@ -1,5 +1,7 @@
 #!/usr/bin/python3
 """_summary_"""
+
+
 def square_matrix_simple(matrix=[]):
     """_summary_
 
