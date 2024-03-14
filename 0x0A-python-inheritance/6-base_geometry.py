@@ -1,12 +1,10 @@
 #!/usr/bin/python3
-"""create an ampty class BaseGeometry
-"""
+"""Defines a base geometry class BaseGeometry."""
 
 
 class BaseGeometry:
-    """create an ampty class BaseGeometry
-    """
+    """Represent base geometry."""
+
     def area(self):
-        """raises an exception with the msg area is not implemented
-        """
-        raise Exception("Area is not implemented")
+        """Not implemented."""
+        raise Exception("area() is not implemented")

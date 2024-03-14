@@ -1,30 +1,23 @@
 #!/usr/bin/python3
-"""create an ampty class BaseGeometry
+"""Module 7-base_geometry.
+Creates a BaseGeometry class.
 """
 
 
 class BaseGeometry:
-    """create an ampty class BaseGeometry
-    """
+    """Class with public instance methods."""
+
     def area(self):
-        """raises an exception with the msg area is not implemented
+        """Raises an Exception with the message
+        'area() is not implemented'.
         """
-        raise Exception("Area is not implemented")
+
+        raise Exception('area() is not implemented')
 
     def integer_validator(self, name, value):
-        """_summary_
+        """Validates value."""
 
-        Args:
-            name (_type_): _description_
-            value (_type_): _description_
-
-        Raises:
-            TypeError: _description_
-            ValueError: _description_
-        """
-
-        if type(value) != int:
-            raise TypeError(f"{name} must be an integer")
-        
+        if type(value) is not int:
+            raise TypeError("{} must be an integer".format(name))
         if value <= 0:
-            raise ValueError(f"{name} must be greater than 0")
+            raise ValueError("{} must be greater than 0".format(name))

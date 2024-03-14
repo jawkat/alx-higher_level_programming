@@ -1,14 +1,19 @@
 #!/usr/bin/python3
-""" print sorted list """
+"""
+Defines MyList that inherits from list
+"""
+
 
 class MyList(list):
-    """ My User list """
-
-    def __init__(self):
-        """constructor method"""
-        super().__init__()
-
+    """
+        This class inherits from list.
+        Attributes:
+        Methods:
+            print_sorted - prints the list in ascending order
+    """
     def print_sorted(self):
-        """print the list
+        """
+           prints a list in ascending order.
         """
         print(sorted(self))
+        

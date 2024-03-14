@@ -1,9 +1,7 @@
 #!/usr/bin/python3
-"""create an ampty class BaseGeometry
-"""
+"""Defines an empty class BaseGeometry."""
 
 
 class BaseGeometry:
-    """create an ampty class BaseGeometry
-    """
+    """Represent base geometry."""
     pass
