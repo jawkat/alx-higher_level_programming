@@ -1,7 +1,6 @@
 #!/usr/bin/python3
 """implement singly linked list in python"""
 
-
 class Node:
     """describe a node instance of s linked list"""
 
