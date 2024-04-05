@@ -5,6 +5,8 @@
 class Rectangle:
     """Represents a rectangle. No body."""
     number_of_instances = 0
+    print_symbol ="#"
+
 
     def __init__(self, width=0, height=0):
         """Initialize a new Rectangle.
@@ -65,7 +67,7 @@ class Rectangle:
 
         rect = []
         for i in range(self.__height):
-            [rect.append('#') for j in range(self.__width)]
+            [rect.append(str(Rectangle.print_symbol)) for j in range(self.__width)]
             if i != self.__height - 1:
                 rect.append('\n')
         return ("".join(rect))
@@ -76,4 +78,3 @@ class Rectangle:
     def __del__(self):
         Rectangle.number_of_instances -= 1
         print("Bye rectangle...")
-        
