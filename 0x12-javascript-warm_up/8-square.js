@@ -7,7 +7,7 @@ if (isNaN(parseInt(process.argv[2]))) {
     for (let i = 0; i < process.argv[2]; i++) {
       pstr += 'X';
     }
-	  console.log(pstr);
-	  pstr=''
+    console.log(pstr);
+    pstr = '';
   }
 }
