@@ -16,7 +16,7 @@ if __name__ == "__main__":
 """
     cur.execute(QUERY,(argv[4],))
     query_rows = cur.fetchall()
-    city_names = [row[0] for row in query_rows]
-    print(", ".join(city_names))
+    city_names = [row[1] for row in query_rows]
+    print(", ".join(str(city) for city in city_names))
     cur.close()
     conn.close()
